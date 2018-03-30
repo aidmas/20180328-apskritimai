@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>"RGB-apskritimai"</title>
+    <style>
+        div{
+            position: relative;
+            width: 50vw;
+            height: 50vw;
+            background-color: rgb(190, 190, 190);
+            align-items: center;
+            margin: 0 auto;
+        }
+        div div{
+            position: absolute;
+            height: calc((100% - 2vw) * 0.6);
+            width: calc((100% - 2vw) * 0.6);
+            border-radius: 50%;
+        }
+        div div div{
+            position: relative;
+            width: 20%;
+            height: 20%;
+            margin: 40% 40%;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            font-size: 4vw;
+            color: white;
+        }
+        #red{
+            background-color: rgba(255, 0, 0, 0.5);
+            border: 1vw solid red;
+            top: 1vw;
+            left: 20%;
+        }
+        #green{
+            background-color: rgba(0, 255, 0, 0.5);
+            border: 1vw solid green;
+            left: 1vw;
+            bottom: 1vw;
+        }
+        #blue{
+            background-color: rgba(0, 0, 255, 0.5);
+            border: 1vw solid blue;
+            right: 1vw;
+            bottom: 1vw;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum in nisi id sagittis. Nunc ac iaculis orci. Cras eros massa, auctor rutrum nulla aliquam, feugiat laoreet urna. Proin a molestie quam. 
+    </p>
+    <div>
+        <div id="red"><div>R</div></div>
+        <div id="green"><div>G</div></div>
+        <div id="blue"><div>B</div></div>
+    </div>
+</body>
+</html>
